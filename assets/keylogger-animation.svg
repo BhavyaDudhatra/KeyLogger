@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 532" role="img" font-family="'Courier New', 'Liberation Mono', 'DejaVu Sans Mono', monospace" width="880" height="532">
-<title>Bhavya Dudhatra - KeyLogger captures the user name live</title>
-<desc>Animated terminal typing a command, then live-capturing the user name keystroke by keystroke while the keys flash on a keyboard map.</desc>
+<title>Bhavya Dudhatra - KeyLogger live capture demo</title>
+<desc>Animated terminal typing a command, capturing keystrokes, and flashing keys on a keyboard map.</desc>
 <rect width="880" height="532" rx="12" fill="#0d1117"/>
 <rect width="880" height="40" fill="#161b22"/>
 <rect y="39" width="880" height="1" fill="#30363d"/>
 <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="64" cy="20" r="6" fill="#27c93f"/>
-<text x="440" y="25" font-size="13" fill="#8b949e" text-anchor="middle">keylogger &#8212; live capture</text>
+<text x="440" y="25" font-size="13" fill="#8b949e" text-anchor="middle">keylogger &#8212; Bhavya Dudhatra</text>
 <circle cx="818" cy="20" r="5" fill="#f85149"><animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" dur="1s" repeatCount="indefinite"/></circle>
 <text x="830" y="24" font-size="12" fill="#f85149">REC</text>
 <rect x="16" y="56" width="848" height="316" rx="8" fill="#010409" stroke="#30363d"/>
@@ -51,71 +51,57 @@
 <text x="351.20" y="86" font-size="14" fill="#c9d1d9" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.278846;0.285513;1" dur="12.0s" repeatCount="indefinite"/>a</text>
 <text x="359.60" y="86" font-size="14" fill="#c9d1d9" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.285256;0.291923;1" dur="12.0s" repeatCount="indefinite"/>r</text>
 <text x="368.00" y="86" font-size="14" fill="#c9d1d9" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.291667;0.298333;1" dur="12.0s" repeatCount="indefinite"/>t</text>
-<rect x="48.80" y="74" width="7.5" height="13" fill="#7ee787" opacity="0"><animate attributeName="x" calcMode="discrete" values="48.80;48.80;57.20;65.60;74.00;82.40;90.80;99.20;107.60;116.00;124.40;132.80;141.20;149.60;158.00;166.40;174.80;183.20;191.60;200.00;208.40;216.80;225.20;233.60;242.00;250.40;258.80;267.20;275.60;284.00;292.40;300.80;309.20;317.60;326.00;334.40;342.80;351.20;359.60;368.00;376.40;376.40" keyTimes="0;0.041667;0.048077;0.054487;0.060897;0.067308;0.073718;0.080128;0.086538;0.092949;0.099359;0.105769;0.112179;0.11859;0.125;0.13141;0.137821;0.144231;0.150641;0.157051;0.163462;0.169872;0.176282;0.182692;0.189103;0.195513;0.201923;0.208333;0.214744;0.221154;0.227564;0.233974;0.240385;0.246795;0.253205;0.259615;0.266026;0.272436;0.278846;0.285256;0.291667;1" dur="12.0s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="discrete" values="1.0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.291667;0.333333;0.375;0.416667;0.458333;0.5;0.541667;0.583333;0.625;0.666667;0.708333;0.75;0.791667;0.833333;0.875;0.916667;1" dur="12.0s" repeatCount="indefinite"/></rect>
+<rect x="48.80" y="74" width="7.5" height="13" fill="#7ee787" opacity="0"><animate attributeName="x" calcMode="discrete" values="48.80;48.80;57.20;65.60;74.00;82.40;90.80;99.20;107.60;116.00;124.40;132.80;141.20;149.60;158.00;166.40;174.80;183.20;191.60;200.00;208.40;216.80;225.20;233.60;242.00;250.40;258.80;267.20;275.60;284.00;292.40;300.80;309.20;317.60;326.00;334.40;342.80;351.20;359.60;368.00;376.40;376.40" keyTimes="0;0.041667;0.048077;0.054487;0.060897;0.067308;0.073718;0.080128;0.086538;0.092949;0.099359;0.105769;0.112179;0.11859;0.125;0.13141;0.137821;0.144231;0.150641;0.157051;0.163462;0.169872;0.176282;0.182692;0.189103;0.195513;0.201923;0.208333;0.214744;0.221154;0.227564;0.233974;0.240385;0.246795;0.253205;0.259615;0.266026;0.272436;0.278846;0.285256;0.291667;1" dur="12.0s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="discrete" values="1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.291667;0.333333;0.375;0.416667;0.458333;0.5;0.541667;0.583333;0.625;0.666667;0.708333;0.75;0.791667;0.833333;0.875;0.916667;0.958333;1" dur="12.0s" repeatCount="indefinite"/></rect>
 <text x="32" y="114" font-size="14" fill="#7ee787" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.333333;0.354167;1" dur="12.0s" repeatCount="indefinite"/>[*] hook installed - capturing keystrokes</text>
-<text x="32" y="160" font-size="14" fill="#8b949e">user: </text>
-<text x="82.40" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.378889;0.383056;1" dur="12.0s" repeatCount="indefinite"/>B</text>
-<text x="90.80" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.399444;0.403611;1" dur="12.0s" repeatCount="indefinite"/>h</text>
-<text x="99.20" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.42;0.424167;1" dur="12.0s" repeatCount="indefinite"/>a</text>
-<text x="107.60" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.440556;0.444722;1" dur="12.0s" repeatCount="indefinite"/>v</text>
-<text x="116.00" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.461111;0.465278;1" dur="12.0s" repeatCount="indefinite"/>y</text>
-<text x="124.40" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.481667;0.485833;1" dur="12.0s" repeatCount="indefinite"/>a</text>
-<text x="132.80" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.502222;0.506389;1" dur="12.0s" repeatCount="indefinite"/> </text>
-<text x="141.20" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.522778;0.526944;1" dur="12.0s" repeatCount="indefinite"/>D</text>
-<text x="149.60" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.543333;0.5475;1" dur="12.0s" repeatCount="indefinite"/>u</text>
-<text x="158.00" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.563889;0.568056;1" dur="12.0s" repeatCount="indefinite"/>d</text>
-<text x="166.40" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.584444;0.588611;1" dur="12.0s" repeatCount="indefinite"/>h</text>
-<text x="174.80" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.605;0.609167;1" dur="12.0s" repeatCount="indefinite"/>a</text>
-<text x="183.20" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.625556;0.629722;1" dur="12.0s" repeatCount="indefinite"/>t</text>
-<text x="191.60" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.646111;0.650278;1" dur="12.0s" repeatCount="indefinite"/>r</text>
-<text x="200.00" y="160" font-size="14" fill="#ffa657" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.666667;0.670833;1" dur="12.0s" repeatCount="indefinite"/>a</text>
-<rect x="82.40" y="148" width="7.5" height="13" fill="#ffa657" opacity="0"><animate attributeName="x" calcMode="discrete" values="82.40;82.40;90.80;99.20;107.60;116.00;124.40;132.80;141.20;149.60;158.00;166.40;174.80;183.20;191.60;200.00;208.40;208.40" keyTimes="0;0.358333;0.378889;0.399444;0.42;0.440556;0.461111;0.481667;0.502222;0.522778;0.543333;0.563889;0.584444;0.605;0.625556;0.646111;0.666667;1" dur="12.0s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="discrete" values="0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.358333;0.666667;0.708333;0.75;0.791667;0.833333;0.875;0.916667;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="32" y="194" font-size="14" fill="#7ee787" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.716667;0.7375;1" dur="12.0s" repeatCount="indefinite"/>[+] profile "Bhavya Dudhatra" stored -&gt; users.sqlite3</text>
-<text x="32" y="228" font-size="14" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.766667;0.7875;1" dur="12.0s" repeatCount="indefinite"/><tspan fill="#8b949e">[14:02:19]</tspan><tspan fill="#58a6ff">  KEY  </tspan><tspan fill="#ffa657">'Enter'</tspan><tspan fill="#8b949e">  window=</tspan><tspan fill="#58a6ff">chrome.exe</tspan></text>
-<text x="32" y="254" font-size="14" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.8;0.820833;1" dur="12.0s" repeatCount="indefinite"/><tspan fill="#8b949e">[14:02:20]</tspan><tspan fill="#58a6ff">  KEY  </tspan><tspan fill="#ffa657">'Esc'</tspan><tspan fill="#8b949e">  window=</tspan><tspan fill="#58a6ff">chrome.exe</tspan></text>
-<text x="32" y="280" font-size="14" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.833333;0.854167;1" dur="12.0s" repeatCount="indefinite"/><tspan fill="#8b949e">[14:02:20]</tspan><tspan fill="#58a6ff">  KEY  </tspan><tspan fill="#ffa657">'Tab'</tspan><tspan fill="#8b949e">  window=</tspan><tspan fill="#58a6ff">chrome.exe</tspan></text>
-<text x="32" y="310" font-size="14" fill="#7ee787">$</text>
-<rect x="48.80" y="299" width="7.5" height="13" fill="#7ee787"><animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" dur="1s" repeatCount="indefinite"/></rect>
+<text x="32" y="150" font-size="11" fill="#8b949e" letter-spacing="2" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.383333;0.404167;1" dur="12.0s" repeatCount="indefinite"/>CAPTURED EVENTS</text>
+<text x="32" y="180" font-size="14" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.416667;0.4375;1" dur="12.0s" repeatCount="indefinite"/><tspan fill="#8b949e">[14:02:11]</tspan><tspan fill="#58a6ff">  KEY  </tspan><tspan fill="#ffa657">'h'</tspan><tspan fill="#8b949e">  window=</tspan><tspan fill="#58a6ff">chrome.exe</tspan></text>
+<text x="32" y="206" font-size="14" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.520833;1" dur="12.0s" repeatCount="indefinite"/><tspan fill="#8b949e">[14:02:12]</tspan><tspan fill="#58a6ff">  KEY  </tspan><tspan fill="#ffa657">'e'</tspan><tspan fill="#8b949e">  window=</tspan><tspan fill="#58a6ff">chrome.exe</tspan></text>
+<text x="32" y="232" font-size="14" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.583333;0.604167;1" dur="12.0s" repeatCount="indefinite"/><tspan fill="#8b949e">[14:02:13]</tspan><tspan fill="#58a6ff">  KEY  </tspan><tspan fill="#ffa657">'l'</tspan><tspan fill="#8b949e">  window=</tspan><tspan fill="#58a6ff">chrome.exe</tspan></text>
+<text x="32" y="258" font-size="14" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.666667;0.6875;1" dur="12.0s" repeatCount="indefinite"/><tspan fill="#8b949e">[14:02:14]</tspan><tspan fill="#58a6ff">  KEY  </tspan><tspan fill="#ffa657">'l'</tspan><tspan fill="#8b949e">  window=</tspan><tspan fill="#58a6ff">chrome.exe</tspan></text>
+<text x="32" y="284" font-size="14" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.75;0.770833;1" dur="12.0s" repeatCount="indefinite"/><tspan fill="#8b949e">[14:02:15]</tspan><tspan fill="#58a6ff">  KEY  </tspan><tspan fill="#ffa657">'o'</tspan><tspan fill="#8b949e">  window=</tspan><tspan fill="#58a6ff">chrome.exe</tspan></text>
+<text x="32" y="310" font-size="14" fill="#7ee787" opacity="0" xml:space="preserve"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.816667;0.8375;1" dur="12.0s" repeatCount="indefinite"/>[+] 5 events flushed to keystrokes.sqlite3</text>
+<text x="32" y="344" font-size="14" fill="#7ee787">$</text>
+<rect x="48.80" y="333" width="7.5" height="13" fill="#7ee787"><animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;0.5" dur="1s" repeatCount="indefinite"/></rect>
 </g>
 <text x="32" y="400" font-size="11" fill="#8b949e" letter-spacing="2">KEYSTROKE MAP</text>
 <rect x="88.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="120.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">Q</text>
 <rect x="159.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="191.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">W</text>
-<rect x="230.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
-<text x="262.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">E</text>
-<rect x="301.5" y="414" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.646111;0.647503;0.671111;0.672503;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="333.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.646111;0.647503;0.671111;0.672503;1" dur="12.0s" repeatCount="indefinite"/>R</text>
-<rect x="372.5" y="414" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.625556;0.626947;0.650556;0.651947;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="404.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.625556;0.626947;0.650556;0.651947;1" dur="12.0s" repeatCount="indefinite"/>T</text>
-<rect x="443.5" y="414" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.461111;0.462503;0.486111;0.487503;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="475.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.461111;0.462503;0.486111;0.487503;1" dur="12.0s" repeatCount="indefinite"/>Y</text>
-<rect x="514.5" y="414" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.543333;0.544725;0.568333;0.569725;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="546.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.543333;0.544725;0.568333;0.569725;1" dur="12.0s" repeatCount="indefinite"/>U</text>
+<rect x="230.5" y="414" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.5;0.501392;0.525;0.526392;1" dur="12.0s" repeatCount="indefinite"/></rect>
+<text x="262.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.5;0.501392;0.525;0.526392;1" dur="12.0s" repeatCount="indefinite"/>E</text>
+<rect x="301.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
+<text x="333.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">R</text>
+<rect x="372.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
+<text x="404.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">T</text>
+<rect x="443.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
+<text x="475.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">Y</text>
+<rect x="514.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
+<text x="546.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">U</text>
 <rect x="585.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="617.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">I</text>
-<rect x="656.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
-<text x="688.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">O</text>
+<rect x="656.5" y="414" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.75;0.751392;0.775;0.776392;1" dur="12.0s" repeatCount="indefinite"/></rect>
+<text x="688.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.75;0.751392;0.775;0.776392;1" dur="12.0s" repeatCount="indefinite"/>O</text>
 <rect x="727.5" y="414" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="759.5" y="431" font-size="12" fill="#8b949e" text-anchor="middle">P</text>
-<rect x="48.0" y="448" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.42;0.421392;0.445;0.446392;0.481667;0.483058;0.506667;0.508058;0.605;0.606392;0.63;0.631392;0.666667;0.668058;0.691667;0.693058;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="80.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.42;0.421392;0.445;0.446392;0.481667;0.483058;0.506667;0.508058;0.605;0.606392;0.63;0.631392;0.666667;0.668058;0.691667;0.693058;1" dur="12.0s" repeatCount="indefinite"/>A</text>
+<rect x="48.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
+<text x="80.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">A</text>
 <rect x="119.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="151.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">S</text>
-<rect x="190.0" y="448" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.522778;0.524169;0.547778;0.549169;0.563889;0.565281;0.588889;0.590281;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="222.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.522778;0.524169;0.547778;0.549169;0.563889;0.565281;0.588889;0.590281;1" dur="12.0s" repeatCount="indefinite"/>D</text>
+<rect x="190.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
+<text x="222.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">D</text>
 <rect x="261.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="293.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">F</text>
 <rect x="332.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="364.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">G</text>
-<rect x="403.0" y="448" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.399444;0.400836;0.424444;0.425836;0.584444;0.585836;0.609444;0.610836;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="435.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.399444;0.400836;0.424444;0.425836;0.584444;0.585836;0.609444;0.610836;1" dur="12.0s" repeatCount="indefinite"/>H</text>
+<rect x="403.0" y="448" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.416667;0.418058;0.441667;0.443058;1" dur="12.0s" repeatCount="indefinite"/></rect>
+<text x="435.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.416667;0.418058;0.441667;0.443058;1" dur="12.0s" repeatCount="indefinite"/>H</text>
 <rect x="474.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="506.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">J</text>
 <rect x="545.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="577.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">K</text>
-<rect x="616.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
-<text x="648.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">L</text>
+<rect x="616.0" y="448" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.583333;0.584725;0.608333;0.609725;0.666667;0.668058;0.691667;0.693058;1" dur="12.0s" repeatCount="indefinite"/></rect>
+<text x="648.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.583333;0.584725;0.608333;0.609725;0.666667;0.668058;0.691667;0.693058;1" dur="12.0s" repeatCount="indefinite"/>L</text>
 <rect x="687.0" y="448" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="719.0" y="465" font-size="12" fill="#8b949e" text-anchor="middle">;</text>
 <rect x="88.5" y="482" width="64" height="26" rx="5" fill="#21262d"/>
@@ -124,10 +110,10 @@
 <text x="191.5" y="499" font-size="12" fill="#8b949e" text-anchor="middle">X</text>
 <rect x="230.5" y="482" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="262.5" y="499" font-size="12" fill="#8b949e" text-anchor="middle">C</text>
-<rect x="301.5" y="482" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.440556;0.441947;0.465556;0.466947;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="333.5" y="499" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.440556;0.441947;0.465556;0.466947;1" dur="12.0s" repeatCount="indefinite"/>V</text>
-<rect x="372.5" y="482" width="64" height="26" rx="5" fill="#21262d"><animate attributeName="fill" values="#21262d;#1f6feb;#1f6feb;#21262d;#21262d;#21262d" keyTimes="0;0.378889;0.380281;0.403889;0.405281;1" dur="12.0s" repeatCount="indefinite"/></rect>
-<text x="404.5" y="499" font-size="12" fill="#8b949e" text-anchor="middle"><animate attributeName="fill" values="#8b949e;#ffffff;#ffffff;#8b949e;#8b949e;#8b949e" keyTimes="0;0.378889;0.380281;0.403889;0.405281;1" dur="12.0s" repeatCount="indefinite"/>B</text>
+<rect x="301.5" y="482" width="64" height="26" rx="5" fill="#21262d"/>
+<text x="333.5" y="499" font-size="12" fill="#8b949e" text-anchor="middle">V</text>
+<rect x="372.5" y="482" width="64" height="26" rx="5" fill="#21262d"/>
+<text x="404.5" y="499" font-size="12" fill="#8b949e" text-anchor="middle">B</text>
 <rect x="443.5" y="482" width="64" height="26" rx="5" fill="#21262d"/>
 <text x="475.5" y="499" font-size="12" fill="#8b949e" text-anchor="middle">N</text>
 <rect x="514.5" y="482" width="64" height="26" rx="5" fill="#21262d"/>
