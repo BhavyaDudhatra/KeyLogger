@@ -1,0 +1,24 @@
+# Keyboard Event Monitor - Requirements
+# Intended for authorized cybersecurity research and testing in controlled lab environments only.
+
+# Core runtime dependencies
+PySide6==6.11.2
+pandas==3.0.2
+openpyxl==3.1.5
+keyboard==0.13.5
+
+# Testing / development (optional in a production lab image, included for unit tests)
+pytest==8.4.2
+pytest-qt==4.5.0
+pytest-mock==3.15.1
+mypy==1.18.2
+ruff==0.13.2
+typeguard==4.4.4
+
+# Notes
+# 1. The 'keyboard' library requires elevated privileges / accessibility permission on macOS and
+#    may be restricted on some Linux Wayland sessions. Simulation Mode is safe on all platforms.
+# 2. This application does not require network access, persistence or administrative/root
+#    privileges. Do not bypass OS security controls to enable live capture.
+# 3. All events are stored locally in SQLite and never transmitted over a network.
+# 4. Default configuration has redaction mode ENABLED. Adjust only when explicitly authorized.
